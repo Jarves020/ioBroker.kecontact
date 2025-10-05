@@ -1304,7 +1304,7 @@ class Kecontact extends utils.Adapter {
             oldValue = this.getStateDefault0(this.stateWallboxCurrent);
         }
 
-        if (this.isNoChargingDueToInteruptedStateOfWallbox(oldValue)) {
+        if (this.isNoChargingDueToInteruptedStateOfWallbox(milliAmpere)) {
             if (milliAmpere > 0) {
                 this.log.debug('No charging due to interupted charging station');
             }
