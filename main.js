@@ -2000,10 +2000,8 @@ class Kecontact extends utils.Adapter {
             return false;
         }
         if (this.getStateDefault0(this.stateWallboxState) == 5) {
-            if (this.startWithState5Attempted === true) {
+                this.startWithState5Attempted = true;
                 return true;
-            }
-            this.startWithState5Attempted = true;
         } else {
             this.startWithState5Attempted = false;
         }
