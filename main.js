@@ -1300,7 +1300,7 @@ class Kecontact extends utils.Adapter {
 
     regulateWallbox(milliAmpere) {
         let oldValue = 0;
-        if (this.getStateDefaultFalse(this.stateWallboxEnabled) || this.getStateDefault0(this.stateWallboxState) == 3) {
+        if (this.getStateDefaultFalse(this.stateWallboxEnabled) && this.getStateDefault0(this.stateWallboxState) == 3) {
             oldValue = this.getStateDefault0(this.stateWallboxCurrent);
         }
 
