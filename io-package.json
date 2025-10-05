@@ -3,7 +3,7 @@
     "name": "kecontact",
     "version": "3.3.1",
     "news": {
-      "3.3.0": {
+      "3.3.1": {
         "en": "new option to always charge with 1p oder 3p\nnew setting for discharging power of storage battery (if not equal to max battery power)\nupdated version requirements (admin 7.6.17 and core 3.3.2)",
         "de": "Neue Option zum immer Laden mit 1p oder 3p.\nNeue Einstellung für die Entladeleistung des Speicherakkus (wenn diese nicht der maximalen Akkuleistung entspricht)\nAktualisierte Versionsanforderungen (Admin 7.6.17 und Core 3.3.2)",
         "ru": "Новая опция для всегда заряжать с 1p или 3p.\nновая настройка для разряда хранящейся энергии аккумулятора (если не равна максимальной мощности аккумулятора)\nтребования к обновленной версии (admin 7.6.17 и core 3.3.2)",
